@@ -1,0 +1,30 @@
+<section class="blk-momento" id="momento">
+  <div class="wrap blk-momento__in">
+    <div class="blk-momento__foto" data-parallax><!--foto:midia/cand-03.jpg|Café servido na xícara da Vibe Clinic--></div>
+    <div class="blk-momento__texto" data-reveal>
+      <p class="blk-momento__eyebrow">Agende o seu momento</p>
+      <h2 class="blk-momento__titulo">O café chega antes da avaliação</h2>
+      <p class="blk-momento__lead" data-acende>Ninguém relaxa numa sala de espera com cara de consultório. Por isso a Vibe recebe com café na xícara da casa, num andar alto da Savassi, com tempo para você chegar de verdade antes de qualquer procedimento.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-momento{
+  padding-block:var(--sp-section);
+  background:color-mix(in srgb,var(--brand) 10%,var(--bg));
+}
+.blk-momento__in{display:grid;gap:var(--sp-4);align-items:center}
+@media (min-width:56rem){.blk-momento__in{grid-template-columns:.9fr 1.1fr;gap:var(--sp-5)}}
+.blk-momento__foto{aspect-ratio:1/1;border-radius:var(--r);overflow:hidden;max-width:34rem}
+.blk-momento__foto img{width:100%;height:100%;object-fit:cover;display:block}
+.blk-momento__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand-2);
+}
+.blk-momento__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-momento__lead{margin:var(--sp-3) 0 0;font-size:1.2rem;color:color-mix(in srgb,var(--ink) 80%,transparent)}
+</style>

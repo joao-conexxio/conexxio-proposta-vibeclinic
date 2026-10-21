@@ -1,0 +1,201 @@
+{
+  "slug": "vibeclinic",
+  "negocio": {
+    "nome": "Vibe Clinic",
+    "whatsapp": "5531997645936",
+    "logo": "brand/logo.jpg",
+    "unidades": [
+      {
+        "bairro": "Savassi",
+        "endereco": "Savassi, Belo Horizonte/MG",
+        "telefone": "(31) 99764-5936",
+        "horario": "Com hora marcada"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#8A6F4C",
+    "brand2": "#6B5638",
+    "ink": "#2B251F",
+    "bg": "#F6F5F0",
+    "pulse": "#B89B72",
+    "radius": "12px",
+    "registro": "editorial",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Tinos",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Consultas",
+            "href": "#consultas"
+          },
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Estética · Savassi, BH",
+        "h1": "Seu rosto e seu cabelo, olhados de perto",
+        "lead": "Consulta facial e capilar, toxina botulínica, harmonização e limpeza de pele num andar alto da Savassi. Todo tratamento começa por uma avaliação sem pressa, e só segue se fizer sentido para você.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Conhecer as consultas",
+        "ctaSecundarioHref": "#consultas",
+        "selo": "Agende o seu momento · Savassi · BH · ",
+        "cardTitulo": "Reserve seu horário",
+        "imagem": "midia/cand-05.jpg",
+        "imagemAlt": "Sala da Vibe Clinic com janelas de vidro voltadas para a Savassi",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Consulta facial",
+          "Consulta capilar",
+          "Toxina botulínica",
+          "Harmonização facial",
+          "Limpeza de pele",
+          "Couro cabeludo"
+        ]
+      }
+    },
+    {
+      "custom": "blocos/consultas.html"
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "O jeito da Vibe",
+        "citacao": "Cuidar da pele como ela merece começa por não fazer nela o que ela não precisa.",
+        "texto": [
+          "Cada pessoa chega com uma queixa diferente: a marca de expressão que incomoda na foto, o cabelo que está caindo mais do que antes, a pele que perdeu o viço.",
+          "A resposta não sai de um cardápio. Sai da consulta, de olhar de perto e de explicar com clareza o que cada procedimento entrega e quanto tempo leva para aparecer."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Indicados na consulta, para o rosto e para o couro cabeludo.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas que se formam com a expressão, na testa, entre as sobrancelhas e em volta dos olhos. A dose é pensada para o rosto continuar se mexendo.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Harmonização facial",
+            "descricao": "Ajustes de contorno e proporção planejados a partir da consulta facial, respeitando os traços que fazem o seu rosto ser o seu.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Higienização profunda, extração e hidratação, para poros congestionados, oleosidade e pele sem brilho. Um bom primeiro passo para quem nunca fez nada.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Tratamento capilar",
+            "descricao": "Para queda, afinamento dos fios e couro cabeludo sensível ou oleoso. O protocolo é definido depois da consulta capilar, com o que a câmera mostrou.",
+            "icone": "folha"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/momento.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Da primeira mensagem ao retorno, sabendo o que vem a seguir.",
+        "itens": [
+          {
+            "titulo": "Mensagem pelo WhatsApp",
+            "texto": "Você conta o que quer cuidar, rosto ou cabelo, e escolhe o horário por ali mesmo.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Consulta",
+            "texto": "Facial ou capilar, com tempo para olhar, perguntar e tirar dúvidas antes de decidir.",
+            "icone": "spa"
+          },
+          {
+            "titulo": "Plano de tratamento",
+            "texto": "O que fazer, em quantas sessões e o que esperar de cada uma. Sem procedimento que você não pediu.",
+            "icone": "check"
+          },
+          {
+            "titulo": "Retorno",
+            "texto": "Acompanhamento para ver como a pele ou o couro cabeludo responderam e ajustar o próximo passo.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "Onde fica"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Reserve o seu momento",
+        "lead": "Diga pelo WhatsApp se quer começar pelo rosto ou pelo cabelo. A recepção encontra o melhor horário para a sua consulta.",
+        "cta": "Conversar no WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          {
+            "texto": "Instagram",
+            "href": "https://www.instagram.com/vibeclinic_/"
+          },
+          {
+            "texto": "WhatsApp",
+            "href": "https://wa.me/5531997645936"
+          },
+          {
+            "texto": "Como chegar",
+            "href": "https://www.google.com/maps/search/?api=1&query=-19.9386667,-43.9379962"
+          }
+        ],
+        "aviso": "Resultados variam de pessoa para pessoa e dependem de avaliação individual."
+      }
+    }
+  ]
+}

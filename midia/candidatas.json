@@ -1,0 +1,41 @@
+{
+  "candidatas": [
+    {
+      "arquivo": "midia/cand-01.jpg",
+      "largura": 1400,
+      "altura": 1400,
+      "origem": "https://media.bio.site/sites/6cb859e1-e48c-4568-81db-2db7173b5f30/oGVeSZZ2cRNbHbcDBDWiTC.jpg"
+    },
+    {
+      "arquivo": "midia/cand-02.jpg",
+      "largura": 1400,
+      "altura": 1400,
+      "origem": "https://media.bio.site/sites/6cb859e1-e48c-4568-81db-2db7173b5f30/E8KsQKzsSzM9NZCbt6gVJJ.jpg"
+    },
+    {
+      "arquivo": "midia/cand-03.jpg",
+      "largura": 1400,
+      "altura": 1400,
+      "origem": "https://media.bio.site/sites/6cb859e1-e48c-4568-81db-2db7173b5f30/MbF62xNyo9HQAT3QRRX4jm.jpg"
+    },
+    {
+      "arquivo": "midia/cand-04.jpg",
+      "largura": 1400,
+      "altura": 787,
+      "origem": "https://media.bio.site/sites/6cb859e1-e48c-4568-81db-2db7173b5f30/bJviEFzKwVba8nVbKRNzY6.png"
+    },
+    {
+      "arquivo": "midia/cand-05.jpg",
+      "largura": 900,
+      "altura": 900,
+      "origem": "https://media.bio.site/sites/6cb859e1-e48c-4568-81db-2db7173b5f30/ECx6khmgKcHzE3S9WkiCaA.jpg"
+    },
+    {
+      "arquivo": "midia/cand-06.jpg",
+      "largura": 796,
+      "altura": 796,
+      "origem": "https://media.bio.site/sites/6cb859e1-e48c-4568-81db-2db7173b5f30/ygHdnYzfLkhYAYRQgNAC3C.png"
+    }
+  ],
+  "folha": "midia/folha.png"
+}

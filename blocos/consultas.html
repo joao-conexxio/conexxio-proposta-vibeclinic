@@ -1,0 +1,57 @@
+<section class="blk-consultas" id="consultas">
+  <div class="wrap">
+    <div class="blk-consultas__cab" data-reveal>
+      <p class="blk-consultas__eyebrow">Por onde começar</p>
+      <h2 class="blk-consultas__titulo">Duas consultas, antes de qualquer procedimento</h2>
+      <p class="blk-consultas__lead">Na Vibe, o primeiro horário não é de aplicação. É de avaliação: olhar de perto o rosto ou o couro cabeludo, ouvir o que incomoda e só então dizer o que faz sentido tratar.</p>
+    </div>
+    <div class="blk-consultas__grade">
+      <article class="blk-consultas__card" data-reveal>
+        <div class="blk-consultas__foto"><!--foto:midia/cand-01.jpg|Profissional da Vibe Clinic avaliando o rosto de uma paciente--></div>
+        <div class="blk-consultas__corpo">
+          <span class="blk-consultas__icone"><!--icone:rosto--></span>
+          <h3>Consulta facial</h3>
+          <p>Leitura da pele, das proporções e da expressão do rosto. Daqui sai a indicação de limpeza, toxina, harmonização ou de nada por enquanto.</p>
+        </div>
+      </article>
+      <article class="blk-consultas__card" data-reveal style="--d:140ms">
+        <div class="blk-consultas__foto"><!--foto:midia/cand-02.jpg|Avaliação do couro cabeludo com câmera de aumento--></div>
+        <div class="blk-consultas__corpo">
+          <span class="blk-consultas__icone"><!--icone:microscopio--></span>
+          <h3>Consulta capilar</h3>
+          <p>O couro cabeludo visto com câmera de aumento, fio a fio. É assim que queda, falhas e oleosidade deixam de ser palpite e passam a ter um plano.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-consultas{padding-block:var(--sp-section)}
+.blk-consultas__cab{max-width:44rem;margin-bottom:var(--sp-4)}
+.blk-consultas__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand-2);
+}
+.blk-consultas__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-consultas__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-consultas__grade{display:grid;gap:var(--sp-4)}
+@media (min-width:48rem){.blk-consultas__grade{grid-template-columns:1fr 1fr}}
+.blk-consultas__card{
+  display:flex;flex-direction:column;border-radius:var(--r);overflow:hidden;
+  background:color-mix(in srgb,var(--brand) 7%,var(--bg));
+}
+.blk-consultas__foto{aspect-ratio:4/3;overflow:hidden}
+.blk-consultas__foto img{width:100%;height:100%;object-fit:cover;display:block}
+.blk-consultas__corpo{padding:var(--sp-3) var(--sp-3) var(--sp-4)}
+.blk-consultas__icone{display:inline-flex;width:2.25rem;height:2.25rem;color:var(--brand)}
+.blk-consultas__icone svg{width:100%;height:100%}
+.blk-consultas__corpo h3{
+  margin:var(--sp-2) 0 var(--sp-1);font-family:var(--f-display);font-size:1.6rem;
+  line-height:1.2;color:var(--ink);font-weight:400;
+}
+.blk-consultas__corpo p{margin:0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+</style>
